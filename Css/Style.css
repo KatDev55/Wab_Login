@@ -72,7 +72,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 15px;
-    margin: -15px 15px 13px 5px;
+    margin: -15px 15px 12px 5px;
 
 }
 
@@ -89,9 +89,10 @@ body{
 }
 
 .remember-forgot a:hover{
-    text-decoration: underline ;
     color: black;
     font-size: 16px;
+    transition: 0.5s;
+    margin: 0px 10px 0px 5px;
 }
 
 .wrapper .btn{
@@ -107,6 +108,18 @@ body{
     font-weight: 400;
     color: rgb(63, 61, 61);
     user-select: none;
+}
+
+#text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wrapper .btn:hover{
+    border: none;
+    outline: none;
+    transform: scale(0.95);
+    transition: 0.5s;
 }
 
 .wrapper .register-link{
@@ -126,6 +139,7 @@ body{
 
 .register-link a:hover{
     color: black;
-    text-decoration: underline;
+    transition: 0.5s;
     font-size: 16px;
+    margin: 0 4px;
 }
